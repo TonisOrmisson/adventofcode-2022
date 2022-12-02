@@ -1,0 +1,32 @@
+{
+    "name": "tonisormisson/adventofcode-2022",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "tonisormisson\\adventofcode2022\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tonis ormisson",
+            "email": "tonis@andmemasin.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1.2",
+        "yiisoft/yii2": "^2.0.x-dev"
+    },
+    "extra": {
+        "platform": {
+            "php": "8.1.2"
+        }
+    },
+
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
